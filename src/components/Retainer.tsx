@@ -86,8 +86,8 @@ const Retainer = () => {
               </ul>
               
               <Button
-                className="w-full"
-                variant={plan.highlighted ? "default" : "outline"}
+                className={`w-full ${!plan.highlighted ? "bg-background text-foreground hover:bg-background/90 border-background" : ""}`}
+                variant={plan.highlighted ? "default" : "secondary"}
                 size="lg"
                 asChild
               >
