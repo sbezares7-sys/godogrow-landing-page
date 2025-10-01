@@ -23,15 +23,14 @@ const Solution = () => {
             <p className="text-muted-foreground mb-6">
               En 14 días tienes: Logo + Web + Identidad + Contenido inicial
             </p>
-            <p className="text-2xl font-bold mb-4">Desde 450€ pago único</p>
+            <p className="text-lg font-semibold mb-4">Desde 450€ pago único</p>
             <a href="#servicios" className="text-primary hover:underline font-medium">
               Ver paquetes ↓
             </a>
           </div>
 
           {/* Fase 2 */}
-          <div className="bg-primary/5 border-2 border-primary rounded-xl p-8 hover:shadow-lg transition-shadow relative">
-            <Badge className="absolute top-4 right-4">⭐ Más popular</Badge>
+          <div className="bg-primary/5 border-2 border-primary rounded-xl p-8 hover:shadow-lg transition-shadow">
             <div className="inline-flex items-center justify-center w-14 h-14 rounded-full bg-primary/20 mb-6">
               <TrendingUp className="w-7 h-7 text-primary" />
             </div>
@@ -40,7 +39,7 @@ const Solution = () => {
             <p className="text-muted-foreground mb-6">
               Retainer mensual: actualizaciones, redes sociales, newsletter, soporte
             </p>
-            <p className="text-2xl font-bold mb-4">Desde 200€/mes</p>
+            <p className="text-lg font-semibold mb-4">Desde 200€/mes</p>
             <p className="text-sm text-muted-foreground">
               La mayoría de clientes activan esto
             </p>
@@ -56,7 +55,7 @@ const Solution = () => {
             <p className="text-muted-foreground mb-6">
               Outreach B2B + Ads optimizados para tu sector
             </p>
-            <p className="text-2xl font-bold mb-4">Desde 400€/mes</p>
+            <p className="text-lg font-semibold mb-4">Desde 400€/mes</p>
             <p className="text-sm text-muted-foreground mb-2">
               Opcional, cuando estés listo
             </p>

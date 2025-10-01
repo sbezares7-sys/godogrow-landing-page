@@ -45,27 +45,43 @@ const Hero = () => {
 
         {/* Mockup visual */}
         <div className="mt-16 relative">
-          <div className="bg-card border-4 border-foreground rounded-lg shadow-2xl overflow-hidden mx-auto max-w-4xl">
-            <div className="bg-muted p-2 flex items-center gap-2 border-b">
-              <div className="flex gap-1.5">
-                <div className="w-3 h-3 rounded-full bg-destructive"></div>
-                <div className="w-3 h-3 rounded-full bg-yellow-400"></div>
-                <div className="w-3 h-3 rounded-full bg-success"></div>
+          <div className="bg-card border-2 border-border rounded-xl shadow-2xl overflow-hidden mx-auto max-w-5xl">
+            <div className="bg-muted/50 p-1.5 flex items-center gap-2 border-b border-border/50">
+              <div className="flex gap-1">
+                <div className="w-2 h-2 rounded-full bg-destructive/60"></div>
+                <div className="w-2 h-2 rounded-full bg-yellow-400/60"></div>
+                <div className="w-2 h-2 rounded-full bg-success/60"></div>
               </div>
-              <div className="flex-1 bg-background rounded px-4 py-1 text-xs text-muted-foreground text-center">
+              <div className="flex-1 bg-background/80 rounded px-3 py-0.5 text-[10px] text-muted-foreground/60 text-center max-w-xs">
                 tunegocio.com
               </div>
             </div>
-            <div className="aspect-video bg-gradient-to-br from-primary/10 to-accent/10 flex items-center justify-center p-12">
-              <div className="text-center space-y-4">
-                <div className="w-24 h-24 bg-primary rounded-xl mx-auto"></div>
-                <div className="space-y-2">
-                  <div className="h-4 bg-foreground/20 rounded w-48 mx-auto"></div>
-                  <div className="h-3 bg-foreground/10 rounded w-64 mx-auto"></div>
+            <div className="aspect-video bg-gradient-to-br from-primary/5 via-background to-accent/5 flex items-center justify-center p-16">
+              <div className="text-center space-y-6 w-full max-w-2xl">
+                {/* Logo simulation */}
+                <div className="relative inline-flex items-center justify-center">
+                  <div className="absolute inset-0 bg-primary/20 blur-xl rounded-full"></div>
+                  <div className="relative w-20 h-20 bg-gradient-to-br from-primary to-primary/80 rounded-2xl shadow-lg"></div>
                 </div>
-                <div className="flex gap-2 justify-center">
-                  <div className="h-10 bg-primary rounded w-32"></div>
-                  <div className="h-10 bg-secondary rounded w-32"></div>
+                
+                {/* Text lines */}
+                <div className="space-y-3">
+                  <div className="h-6 bg-gradient-to-r from-foreground/30 via-foreground/20 to-transparent rounded-lg w-64 mx-auto"></div>
+                  <div className="h-4 bg-foreground/10 rounded w-80 mx-auto"></div>
+                  <div className="h-4 bg-foreground/10 rounded w-72 mx-auto"></div>
+                </div>
+                
+                {/* CTA buttons */}
+                <div className="flex gap-3 justify-center pt-4">
+                  <div className="h-12 bg-gradient-to-r from-primary to-primary/90 rounded-lg w-40 shadow-lg"></div>
+                  <div className="h-12 bg-secondary/60 rounded-lg w-40"></div>
+                </div>
+                
+                {/* Decorative elements */}
+                <div className="flex gap-8 justify-center pt-6 opacity-40">
+                  <div className="w-16 h-16 border border-foreground/20 rounded-lg"></div>
+                  <div className="w-16 h-16 border border-foreground/20 rounded-lg"></div>
+                  <div className="w-16 h-16 border border-foreground/20 rounded-lg"></div>
                 </div>
               </div>
             </div>
