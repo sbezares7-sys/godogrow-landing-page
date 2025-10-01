@@ -1,3 +1,6 @@
+import antesImage from "@/assets/antes.jpg";
+import despuesImage from "@/assets/despues.jpg";
+
 const CaseStudy = () => {
   return (
     <section id="casos" className="py-20 px-4 bg-background">
@@ -14,17 +17,13 @@ const CaseStudy = () => {
                 ANTES
               </span>
             </div>
-            <div className="border-2 border-muted rounded-lg overflow-hidden bg-muted/30">
-              <div className="aspect-[4/3] bg-gradient-to-br from-muted to-muted/50 flex items-center justify-center p-8">
-                <div className="text-center">
-                  <div className="text-muted-foreground mb-4">
-                    [Aquí irá screenshot del ANTES - 800x600px]
-                  </div>
-                  <div className="space-y-2">
-                    <div className="h-3 bg-muted-foreground/20 rounded w-3/4 mx-auto"></div>
-                    <div className="h-3 bg-muted-foreground/20 rounded w-1/2 mx-auto"></div>
-                  </div>
-                </div>
+            <div className="border-2 border-muted rounded-lg overflow-hidden bg-muted/30 shadow-lg">
+              <div className="aspect-[4/3] bg-white">
+                <img 
+                  src={antesImage} 
+                  alt="Web antes del rebranding - diseño anticuado"
+                  className="w-full h-full object-cover"
+                />
               </div>
             </div>
             <p className="text-center text-muted-foreground mt-4">
@@ -39,20 +38,13 @@ const CaseStudy = () => {
                 DESPUÉS
               </span>
             </div>
-            <div className="border-2 border-primary rounded-lg overflow-hidden shadow-lg">
-              <div className="aspect-[4/3] bg-gradient-to-br from-primary/5 to-accent/5 flex items-center justify-center p-8">
-                <div className="text-center space-y-4">
-                  <div className="w-16 h-16 bg-primary rounded-lg mx-auto"></div>
-                  <div className="space-y-2">
-                    <div className="h-4 bg-foreground/20 rounded w-3/4 mx-auto"></div>
-                    <div className="h-3 bg-foreground/10 rounded w-full mx-auto"></div>
-                    <div className="h-3 bg-foreground/10 rounded w-5/6 mx-auto"></div>
-                  </div>
-                  <div className="flex gap-2 justify-center pt-4">
-                    <div className="h-8 bg-primary rounded w-24"></div>
-                    <div className="h-8 bg-secondary rounded w-24"></div>
-                  </div>
-                </div>
+            <div className="border-2 border-primary rounded-lg overflow-hidden shadow-xl">
+              <div className="aspect-[4/3] bg-white">
+                <img 
+                  src={despuesImage} 
+                  alt="Web después del rebranding - diseño moderno y profesional"
+                  className="w-full h-full object-cover"
+                />
               </div>
             </div>
             <p className="text-center text-muted-foreground mt-4">
@@ -81,10 +73,6 @@ const CaseStudy = () => {
             </div>
           </div>
         </div>
-
-        <p className="text-center text-sm text-muted-foreground mt-8 italic">
-          Nota: Las imágenes del antes y después se subirán próximamente
-        </p>
       </div>
     </section>
   );
