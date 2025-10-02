@@ -19,10 +19,10 @@ const Footer = () => {
               Branding profesional para negocios que quieren crecer
             </p>
             <a 
-              href="mailto:hola@godogrow.es" 
+              href="mailto:team@godogrow.es" 
               className="text-primary hover:underline text-sm"
             >
-              hola@godogrow.es
+              team@godogrow.es
             </a>
           </div>
 

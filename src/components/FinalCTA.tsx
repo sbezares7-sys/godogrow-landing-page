@@ -24,8 +24,8 @@ const FinalCTA = () => {
         <div className="mt-12 pt-8 border-t border-background/20">
           <p className="text-background/80">
             ¿Prefieres escribir? →{" "}
-            <a href="mailto:hola@godogrow.es" className="text-primary hover:underline font-medium">
-              hola@godogrow.es
+            <a href="mailto:team@godogrow.es" className="text-primary hover:underline font-medium">
+              team@godogrow.es
             </a>
           </p>
         </div>
