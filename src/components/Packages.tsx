@@ -59,11 +59,11 @@ const Packages = () => {
   return (
     <section id="servicios" className="py-20 px-4 bg-gray-bg">
       <div className="container mx-auto max-w-7xl">
-        <div className="text-center mb-16">
-          <h2 className="text-4xl md:text-5xl font-bold mb-4">
+        <div className="text-center mb-12 md:mb-16">
+          <h2 className="text-2xl sm:text-3xl md:text-4xl lg:text-5xl font-bold mb-4">
             Elige tu paquete de fundación
           </h2>
-          <p className="text-xl text-muted-foreground">
+          <p className="text-base sm:text-lg md:text-xl text-muted-foreground px-4">
             Todo incluye 2 rondas de revisión y entrega en 14 días
           </p>
         </div>
@@ -72,9 +72,9 @@ const Packages = () => {
           {packages.map((pkg, index) => (
             <div
               key={index}
-              className={`bg-background rounded-xl p-8 border-2 ${
+              className={`bg-background rounded-xl p-6 sm:p-8 border-2 ${
                 pkg.highlighted
-                  ? "border-primary shadow-xl scale-105"
+                  ? "border-primary shadow-xl md:scale-105"
                   : "border-border"
               } hover:shadow-lg transition-all`}
             >
@@ -84,10 +84,10 @@ const Packages = () => {
                 </Badge>
               </div>
               
-              <h3 className="text-2xl font-bold mb-2">{pkg.name}</h3>
+              <h3 className="text-xl sm:text-2xl font-bold mb-2">{pkg.name}</h3>
               <div className="mb-6">
-                <span className="text-4xl font-bold">{pkg.price}</span>
-                <p className="text-sm text-muted-foreground mt-1">{pkg.subtitle}</p>
+                <span className="text-3xl sm:text-4xl font-bold">{pkg.price}</span>
+                <p className="text-xs sm:text-sm text-muted-foreground mt-1">{pkg.subtitle}</p>
               </div>
               
               <ul className="space-y-3 mb-8">

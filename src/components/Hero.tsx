@@ -18,11 +18,11 @@ const Hero = () => {
             14 días de tu marca amateur a profesional
           </Badge>
           
-          <h1 className="text-5xl md:text-7xl font-bold mb-6 leading-tight">
+          <h1 className="text-3xl sm:text-4xl md:text-5xl lg:text-7xl font-bold mb-6 leading-tight">
             Tu negocio merece una marca que venda
           </h1>
           
-          <p className="text-xl md:text-2xl text-muted-foreground mb-10 max-w-3xl mx-auto">
+          <p className="text-base sm:text-lg md:text-xl lg:text-2xl text-muted-foreground mb-8 md:mb-10 max-w-3xl mx-auto px-2">
             Branding completo + Web + Contenido en 14 días. Desde 450€ + mantenimiento desde 200€/mes para seguir creciendo.
           </p>
           
@@ -56,32 +56,32 @@ const Hero = () => {
                 tunegocio.com
               </div>
             </div>
-            <div className="aspect-video bg-gradient-to-br from-primary/5 via-background to-accent/5 flex items-center justify-center p-16">
-              <div className="text-center space-y-6 w-full max-w-2xl">
+            <div className="aspect-video bg-gradient-to-br from-primary/5 via-background to-accent/5 flex items-center justify-center p-4 sm:p-8 md:p-16">
+              <div className="text-center space-y-4 sm:space-y-6 w-full max-w-2xl">
                 {/* Logo simulation */}
                 <div className="relative inline-flex items-center justify-center">
                   <div className="absolute inset-0 bg-primary/20 blur-xl rounded-full"></div>
-                  <div className="relative w-20 h-20 bg-gradient-to-br from-primary to-primary/80 rounded-2xl shadow-lg"></div>
+                  <div className="relative w-12 h-12 sm:w-16 sm:h-16 md:w-20 md:h-20 bg-gradient-to-br from-primary to-primary/80 rounded-2xl shadow-lg"></div>
                 </div>
                 
                 {/* Text lines */}
-                <div className="space-y-3">
-                  <div className="h-6 bg-gradient-to-r from-foreground/30 via-foreground/20 to-transparent rounded-lg w-64 mx-auto"></div>
-                  <div className="h-4 bg-foreground/10 rounded w-80 mx-auto"></div>
-                  <div className="h-4 bg-foreground/10 rounded w-72 mx-auto"></div>
+                <div className="space-y-2 sm:space-y-3">
+                  <div className="h-4 sm:h-5 md:h-6 bg-gradient-to-r from-foreground/30 via-foreground/20 to-transparent rounded-lg w-40 sm:w-52 md:w-64 mx-auto"></div>
+                  <div className="h-3 sm:h-3.5 md:h-4 bg-foreground/10 rounded w-52 sm:w-64 md:w-80 mx-auto"></div>
+                  <div className="h-3 sm:h-3.5 md:h-4 bg-foreground/10 rounded w-44 sm:w-56 md:w-72 mx-auto"></div>
                 </div>
                 
                 {/* CTA buttons */}
-                <div className="flex gap-3 justify-center pt-4">
-                  <div className="h-12 bg-gradient-to-r from-primary to-primary/90 rounded-lg w-40 shadow-lg"></div>
-                  <div className="h-12 bg-secondary/60 rounded-lg w-40"></div>
+                <div className="flex gap-2 sm:gap-3 justify-center pt-2 sm:pt-4">
+                  <div className="h-8 sm:h-10 md:h-12 bg-gradient-to-r from-primary to-primary/90 rounded-lg w-28 sm:w-32 md:w-40 shadow-lg"></div>
+                  <div className="h-8 sm:h-10 md:h-12 bg-secondary/60 rounded-lg w-28 sm:w-32 md:w-40"></div>
                 </div>
                 
                 {/* Decorative elements */}
-                <div className="flex gap-8 justify-center pt-6 opacity-40">
-                  <div className="w-16 h-16 border border-foreground/20 rounded-lg"></div>
-                  <div className="w-16 h-16 border border-foreground/20 rounded-lg"></div>
-                  <div className="w-16 h-16 border border-foreground/20 rounded-lg"></div>
+                <div className="flex gap-4 sm:gap-6 md:gap-8 justify-center pt-4 sm:pt-6 opacity-40">
+                  <div className="w-10 h-10 sm:w-12 sm:h-12 md:w-16 md:h-16 border border-foreground/20 rounded-lg"></div>
+                  <div className="w-10 h-10 sm:w-12 sm:h-12 md:w-16 md:h-16 border border-foreground/20 rounded-lg"></div>
+                  <div className="w-10 h-10 sm:w-12 sm:h-12 md:w-16 md:h-16 border border-foreground/20 rounded-lg"></div>
                 </div>
               </div>
             </div>

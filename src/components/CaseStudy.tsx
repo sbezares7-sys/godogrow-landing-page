@@ -5,7 +5,7 @@ const CaseStudy = () => {
   return (
     <section id="casos" className="py-20 px-4 bg-background">
       <div className="container mx-auto max-w-6xl">
-        <h2 className="text-4xl md:text-5xl font-bold text-center mb-16">
+        <h2 className="text-2xl sm:text-3xl md:text-4xl lg:text-5xl font-bold text-center mb-12 md:mb-16">
           Resultados reales: Antes vs Después
         </h2>
         
@@ -50,22 +50,22 @@ const CaseStudy = () => {
         </div>
 
         {/* Metrics */}
-        <div className="bg-gray-bg rounded-xl p-8 max-w-3xl mx-auto">
-          <div className="grid grid-cols-3 gap-8 text-center">
+        <div className="bg-gray-bg rounded-xl p-4 sm:p-6 md:p-8 max-w-3xl mx-auto">
+          <div className="grid grid-cols-3 gap-3 sm:gap-6 md:gap-8 text-center">
             <div>
-              <div className="text-3xl mb-2">⚡</div>
-              <p className="font-semibold mb-1">Entregado en:</p>
-              <p className="text-2xl font-bold text-primary">14 días</p>
+              <div className="text-2xl sm:text-3xl mb-1 sm:mb-2">⚡</div>
+              <p className="text-xs sm:text-sm font-semibold mb-1">Entregado en:</p>
+              <p className="text-lg sm:text-xl md:text-2xl font-bold text-primary">14 días</p>
             </div>
             <div>
-              <div className="text-3xl mb-2">💰</div>
-              <p className="font-semibold mb-1">Inversión:</p>
-              <p className="text-2xl font-bold text-primary">650€</p>
+              <div className="text-2xl sm:text-3xl mb-1 sm:mb-2">💰</div>
+              <p className="text-xs sm:text-sm font-semibold mb-1">Inversión:</p>
+              <p className="text-lg sm:text-xl md:text-2xl font-bold text-primary">650€</p>
             </div>
             <div>
-              <div className="text-3xl mb-2">📈</div>
-              <p className="font-semibold mb-1">Resultados:</p>
-              <p className="text-2xl font-bold text-success">+200% conversión</p>
+              <div className="text-2xl sm:text-3xl mb-1 sm:mb-2">📈</div>
+              <p className="text-xs sm:text-sm font-semibold mb-1">Resultados:</p>
+              <p className="text-base sm:text-lg md:text-2xl font-bold text-success">+200% conversión</p>
             </div>
           </div>
         </div>
