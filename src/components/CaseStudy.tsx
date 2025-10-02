@@ -18,13 +18,11 @@ const CaseStudy = () => {
               </span>
             </div>
             <div className="border-2 border-muted rounded-lg overflow-hidden bg-muted/30 shadow-lg">
-              <div className="aspect-[4/3] bg-white">
-                <img 
-                  src={antesImage} 
-                  alt="Web antes del rebranding - diseño anticuado"
-                  className="w-full h-full object-cover"
-                />
-              </div>
+              <img 
+                src={antesImage} 
+                alt="Web antes del rebranding - diseño anticuado"
+                className="w-full h-auto object-contain"
+              />
             </div>
             <p className="text-center text-muted-foreground mt-4">
               Web anticuada, sin estrategia, conversión baja
@@ -39,13 +37,11 @@ const CaseStudy = () => {
               </span>
             </div>
             <div className="border-2 border-primary rounded-lg overflow-hidden shadow-xl">
-              <div className="aspect-[4/3] bg-white">
-                <img 
-                  src={despuesImage} 
-                  alt="Web después del rebranding - diseño moderno y profesional"
-                  className="w-full h-full object-cover"
-                />
-              </div>
+              <img 
+                src={despuesImage} 
+                alt="Web después del rebranding - diseño moderno y profesional"
+                className="w-full h-auto object-contain"
+              />
             </div>
             <p className="text-center text-muted-foreground mt-4">
               Diseño moderno, copy estratégico, conversión x3
