@@ -2,7 +2,7 @@ import { Play } from "lucide-react";
 
 const VideoCase = () => {
   return (
-    <section className="py-20 px-4 bg-gray-bg">
+    <section className="py-12 md:py-20 px-4 bg-gray-bg">
       <div className="container mx-auto max-w-4xl">
         <h2 className="text-4xl md:text-5xl font-bold text-center mb-6">
           Mira cómo hacemos un rebranding completo en 24 horas

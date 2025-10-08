@@ -45,7 +45,7 @@ const Retainer = () => {
   ];
 
   return (
-    <section className="py-20 px-4 bg-gradient-to-br from-dark-bg to-foreground text-background">
+    <section id="retainer" className="py-12 md:py-20 px-4 bg-gradient-to-br from-dark-bg to-foreground text-background">
       <div className="container mx-auto max-w-6xl">
         <div className="text-center mb-16">
           <h2 className="text-4xl md:text-5xl font-bold mb-4">

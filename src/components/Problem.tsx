@@ -20,7 +20,7 @@ const Problem = () => {
   ];
 
   return (
-    <section className="py-20 px-4 bg-gray-bg">
+    <section id="servicios" className="py-12 md:py-20 px-4 bg-gray-bg">
       <div className="container mx-auto max-w-6xl">
         <h2 className="text-4xl md:text-5xl font-bold text-center mb-16">
           ¿Te suena familiar?

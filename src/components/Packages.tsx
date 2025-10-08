@@ -57,7 +57,7 @@ const Packages = () => {
   ];
 
   return (
-    <section id="servicios" className="py-20 px-4 bg-gray-bg">
+    <section id="paquetes" className="py-12 md:py-20 px-4 bg-gray-bg">
       <div className="container mx-auto max-w-7xl">
         <div className="text-center mb-12 md:mb-16">
           <h2 className="text-2xl sm:text-3xl md:text-4xl lg:text-5xl font-bold mb-4">

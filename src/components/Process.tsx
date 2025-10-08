@@ -29,7 +29,7 @@ const Process = () => {
   ];
 
   return (
-    <section id="proceso" className="py-20 px-4 bg-background">
+    <section id="proceso" className="py-12 md:py-20 px-4 bg-background">
       <div className="container mx-auto max-w-4xl">
         <h2 className="text-4xl md:text-5xl font-bold text-center mb-16">
           Cómo trabajamos: De kickoff a entrega en 14 días

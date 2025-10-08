@@ -11,7 +11,7 @@ const Hero = () => {
   };
 
   return (
-    <section className="pt-32 pb-20 px-4 bg-gradient-to-b from-background to-gray-bg">
+    <section className="pt-24 pb-12 md:pt-32 md:pb-20 px-4 bg-gradient-to-b from-background to-gray-bg">
       <div className="container mx-auto max-w-6xl">
         <div className="text-center mb-12">
           <Badge variant="secondary" className="mb-6 text-sm px-4 py-2">

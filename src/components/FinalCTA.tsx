@@ -2,7 +2,7 @@ import { Button } from "@/components/ui/button";
 
 const FinalCTA = () => {
   return (
-    <section id="contacto" className="py-20 px-4 bg-gradient-to-br from-foreground to-dark-bg text-background">
+    <section id="contacto" className="py-12 md:py-20 px-4 bg-gradient-to-br from-foreground to-dark-bg text-background">
       <div className="container mx-auto max-w-3xl text-center">
         <h2 className="text-4xl md:text-5xl font-bold mb-6">
           ¿Listo para que tu marca esté a la altura de tu negocio?

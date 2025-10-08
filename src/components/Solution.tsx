@@ -3,7 +3,7 @@ import { Badge } from "@/components/ui/badge";
 
 const Solution = () => {
   return (
-    <section id="como-funciona" className="py-20 px-4 bg-background">
+    <section id="como-funciona" className="py-12 md:py-20 px-4 bg-background">
       <div className="container mx-auto max-w-6xl">
         <h2 className="text-2xl sm:text-3xl md:text-4xl lg:text-5xl font-bold text-center mb-4">
           La solución: Branding completo en 3 fases
