@@ -44,7 +44,7 @@ const Process = () => {
               <div key={index} className="relative flex gap-6 md:gap-8">
                 {/* Icon */}
                 <div className="flex-shrink-0 relative z-10">
-                  <div className="w-16 h-16 rounded-full bg-primary flex items-center justify-center">
+                  <div className="w-16 h-16 rounded-full bg-gradient-to-br from-primary to-[hsl(30,100%,55%)] flex items-center justify-center shadow-lg shadow-primary/40">
                     <step.icon className="w-8 h-8 text-primary-foreground" />
                   </div>
                 </div>
@@ -63,8 +63,8 @@ const Process = () => {
         </div>
 
         {/* Guarantee box */}
-        <div className="mt-16 bg-primary/5 border-2 border-primary rounded-xl p-8 text-center">
-          <p className="text-lg md:text-xl font-semibold">
+        <div className="mt-16 bg-primary/5 border-2 border-primary rounded-xl p-8 text-center shadow-lg shadow-primary/10">
+          <p className="text-lg md:text-xl font-semibold text-foreground">
             ¿Necesitas más tiempo? Sin problema. Si no entregamos en 14 días, es gratis. Sin excusas.
           </p>
         </div>

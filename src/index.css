@@ -17,7 +17,7 @@ All colors MUST be HSL.
     --popover: 0 0% 100%;
     --popover-foreground: 0 0% 0%;
 
-    --primary: 217 100% 50%;
+    --primary: 25 100% 50%;
     --primary-foreground: 0 0% 100%;
 
     --secondary: 0 0% 96%;
@@ -34,7 +34,7 @@ All colors MUST be HSL.
 
     --border: 0 0% 90%;
     --input: 0 0% 90%;
-    --ring: 217 100% 50%;
+    --ring: 25 100% 50%;
 
     --radius: 0.75rem;
 
@@ -43,6 +43,8 @@ All colors MUST be HSL.
     --gray-bg: 0 0% 96%;
     --dark-bg: 0 0% 5%;
     --success: 160 84% 39%;
+    --orange-glow: 25 100% 60%;
+    --gradient-orange: linear-gradient(135deg, hsl(25 100% 50%), hsl(35 100% 55%));
   }
 }
 

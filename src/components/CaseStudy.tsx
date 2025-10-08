@@ -36,7 +36,7 @@ const CaseStudy = () => {
                 DESPUÉS
               </span>
             </div>
-            <div className="border-2 border-primary rounded-lg overflow-hidden shadow-xl">
+            <div className="border-2 border-primary rounded-lg overflow-hidden shadow-xl shadow-primary/20">
               <img 
                 src={despuesImage} 
                 alt="Web después del rebranding - diseño moderno y profesional"

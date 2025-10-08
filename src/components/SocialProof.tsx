@@ -39,7 +39,7 @@ const SocialProof = () => {
         <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-5 gap-8">
           {items.map((item, index) => (
             <div key={index} className="text-center">
-              <div className="inline-flex items-center justify-center w-16 h-16 rounded-full bg-secondary mb-4">
+              <div className="inline-flex items-center justify-center w-16 h-16 rounded-full bg-primary/10 border border-primary/20 mb-4">
                 <item.icon className="w-8 h-8 text-primary" />
               </div>
               <h4 className="font-semibold mb-2">{item.title}</h4>

@@ -30,7 +30,7 @@ const Solution = () => {
           </div>
 
           {/* Fase 2 */}
-          <div className="bg-primary/5 border-2 border-primary rounded-xl p-4 sm:p-8 hover:shadow-lg transition-shadow">
+          <div className="bg-primary/5 border-2 border-primary rounded-xl p-4 sm:p-8 hover:shadow-lg hover:shadow-primary/20 transition-all">
             <div className="inline-flex items-center justify-center w-10 h-10 sm:w-14 sm:h-14 rounded-full bg-primary/20 mb-3 sm:mb-6">
               <TrendingUp className="w-5 h-5 sm:w-7 sm:h-7 text-primary" />
             </div>

@@ -62,7 +62,7 @@ const Retainer = () => {
               key={index}
               className={`bg-background/10 backdrop-blur-sm rounded-xl p-8 border-2 ${
                 plan.highlighted
-                  ? "border-primary shadow-xl scale-105"
+                  ? "border-primary shadow-xl shadow-primary/30 scale-105"
                   : "border-background/20"
               } hover:bg-background/15 transition-all`}
             >

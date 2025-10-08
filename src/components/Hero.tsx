@@ -14,7 +14,7 @@ const Hero = () => {
     <section className="pt-20 pb-8 md:pt-32 md:pb-20 px-4 bg-gradient-to-b from-background to-gray-bg">
       <div className="container mx-auto max-w-6xl">
         <div className="text-center mb-8 md:mb-12">
-          <Badge variant="secondary" className="mb-4 md:mb-6 text-xs md:text-sm px-3 md:px-4 py-1.5 md:py-2">
+          <Badge className="mb-4 md:mb-6 text-xs md:text-sm px-3 md:px-4 py-1.5 md:py-2 bg-primary/10 text-primary border-primary/20">
             14 días de tu marca amateur a profesional
           </Badge>
           
@@ -60,8 +60,8 @@ const Hero = () => {
               <div className="text-center space-y-2 sm:space-y-6 w-full max-w-2xl">
                 {/* Logo simulation */}
                 <div className="relative inline-flex items-center justify-center">
-                  <div className="absolute inset-0 bg-primary/20 blur-xl rounded-full"></div>
-                  <div className="relative w-12 h-12 sm:w-16 sm:h-16 md:w-20 md:h-20 bg-gradient-to-br from-primary to-primary/80 rounded-2xl shadow-lg"></div>
+                  <div className="absolute inset-0 bg-primary/30 blur-2xl rounded-full"></div>
+                  <div className="relative w-12 h-12 sm:w-16 sm:h-16 md:w-20 md:h-20 bg-gradient-to-br from-primary via-[hsl(30,100%,55%)] to-[hsl(35,100%,50%)] rounded-2xl shadow-lg shadow-primary/50"></div>
                 </div>
                 
                 {/* Text lines */}
