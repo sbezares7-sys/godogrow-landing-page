@@ -57,50 +57,50 @@ const Packages = () => {
   ];
 
   return (
-    <section id="paquetes" className="py-12 md:py-20 px-4 bg-gray-bg">
+    <section id="paquetes" className="py-8 md:py-20 px-4 bg-gray-bg">
       <div className="container mx-auto max-w-7xl">
-        <div className="text-center mb-12 md:mb-16">
-          <h2 className="text-2xl sm:text-3xl md:text-4xl lg:text-5xl font-bold mb-4">
+        <div className="text-center mb-6 md:mb-16">
+          <h2 className="text-xl sm:text-2xl md:text-4xl lg:text-5xl font-bold mb-2 md:mb-4">
             Elige tu paquete de fundación
           </h2>
-          <p className="text-base sm:text-lg md:text-xl text-muted-foreground px-4">
+          <p className="text-sm sm:text-base md:text-xl text-muted-foreground px-4">
             Todo incluye 2 rondas de revisión y entrega en 14 días
           </p>
         </div>
         
-        <div className="grid md:grid-cols-3 gap-8 mb-8">
+        <div className="grid md:grid-cols-3 gap-4 md:gap-8 mb-4 md:mb-8">
           {packages.map((pkg, index) => (
             <div
               key={index}
-              className={`bg-background rounded-xl p-6 sm:p-8 border-2 ${
+              className={`bg-background rounded-xl p-4 sm:p-8 border-2 ${
                 pkg.highlighted
                   ? "border-primary shadow-xl md:scale-105"
                   : "border-border"
               } hover:shadow-lg transition-all`}
             >
-              <div className="flex justify-between items-start mb-6">
-                <Badge variant={pkg.highlighted ? "default" : "secondary"}>
+              <div className="flex justify-between items-start mb-3 md:mb-6">
+                <Badge variant={pkg.highlighted ? "default" : "secondary"} className="text-xs">
                   {pkg.badge}
                 </Badge>
               </div>
               
-              <h3 className="text-xl sm:text-2xl font-bold mb-2">{pkg.name}</h3>
-              <div className="mb-6">
-                <span className="text-3xl sm:text-4xl font-bold">{pkg.price}</span>
-                <p className="text-xs sm:text-sm text-muted-foreground mt-1">{pkg.subtitle}</p>
+              <h3 className="text-lg sm:text-2xl font-bold mb-1 md:mb-2">{pkg.name}</h3>
+              <div className="mb-3 md:mb-6">
+                <span className="text-2xl sm:text-4xl font-bold">{pkg.price}</span>
+                <p className="text-xs text-muted-foreground mt-0.5 md:mt-1">{pkg.subtitle}</p>
               </div>
               
-              <ul className="space-y-3 mb-8">
+              <ul className="space-y-1.5 md:space-y-3 mb-4 md:mb-8">
                 {pkg.features.map((feature, i) => (
-                  <li key={i} className="flex items-start gap-2">
-                    <Check className="w-5 h-5 text-success flex-shrink-0 mt-0.5" />
-                    <span className="text-sm">{feature}</span>
+                  <li key={i} className="flex items-start gap-1.5 md:gap-2">
+                    <Check className="w-4 h-4 md:w-5 md:h-5 text-success flex-shrink-0 mt-0.5" />
+                    <span className="text-xs md:text-sm">{feature}</span>
                   </li>
                 ))}
               </ul>
               
-              <div className="pt-6 border-t border-border">
-                <p className="text-sm text-muted-foreground mb-4">
+              <div className="pt-3 md:pt-6 border-t border-border">
+                <p className="text-xs md:text-sm text-muted-foreground mb-2 md:mb-4">
                   <span className="font-medium">Ideal para:</span> {pkg.ideal}
                 </p>
                 <Button

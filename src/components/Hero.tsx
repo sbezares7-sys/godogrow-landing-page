@@ -11,18 +11,18 @@ const Hero = () => {
   };
 
   return (
-    <section className="pt-24 pb-12 md:pt-32 md:pb-20 px-4 bg-gradient-to-b from-background to-gray-bg">
+    <section className="pt-20 pb-8 md:pt-32 md:pb-20 px-4 bg-gradient-to-b from-background to-gray-bg">
       <div className="container mx-auto max-w-6xl">
-        <div className="text-center mb-12">
-          <Badge variant="secondary" className="mb-6 text-sm px-4 py-2">
+        <div className="text-center mb-8 md:mb-12">
+          <Badge variant="secondary" className="mb-4 md:mb-6 text-xs md:text-sm px-3 md:px-4 py-1.5 md:py-2">
             14 días de tu marca amateur a profesional
           </Badge>
           
-          <h1 className="text-3xl sm:text-4xl md:text-5xl lg:text-7xl font-bold mb-6 leading-tight">
+          <h1 className="text-2xl sm:text-3xl md:text-5xl lg:text-7xl font-bold mb-4 md:mb-6 leading-tight px-2">
             Tu negocio merece una marca que venda
           </h1>
           
-          <p className="text-base sm:text-lg md:text-xl lg:text-2xl text-muted-foreground mb-8 md:mb-10 max-w-3xl mx-auto px-2">
+          <p className="text-sm sm:text-base md:text-xl lg:text-2xl text-muted-foreground mb-6 md:mb-10 max-w-3xl mx-auto px-2">
             Branding completo + Web + Contenido en 14 días. Desde 450€ + mantenimiento desde 200€/mes para seguir creciendo.
           </p>
           
@@ -44,9 +44,9 @@ const Hero = () => {
         </div>
 
         {/* Mockup visual */}
-        <div className="mt-16 relative">
+        <div className="mt-8 md:mt-16 relative">
           <div className="bg-card border-2 border-border rounded-xl shadow-2xl overflow-hidden mx-auto max-w-5xl">
-            <div className="bg-muted/50 p-1.5 flex items-center gap-2 border-b border-border/50">
+            <div className="bg-muted/50 p-1 md:p-1.5 flex items-center gap-1 md:gap-2 border-b border-border/50">
               <div className="flex gap-1">
                 <div className="w-2 h-2 rounded-full bg-destructive/60"></div>
                 <div className="w-2 h-2 rounded-full bg-yellow-400/60"></div>
@@ -56,8 +56,8 @@ const Hero = () => {
                 tunegocio.com
               </div>
             </div>
-            <div className="aspect-video bg-gradient-to-br from-primary/5 via-background to-accent/5 flex items-center justify-center p-4 sm:p-8 md:p-16">
-              <div className="text-center space-y-4 sm:space-y-6 w-full max-w-2xl">
+            <div className="aspect-video bg-gradient-to-br from-primary/5 via-background to-accent/5 flex items-center justify-center p-3 sm:p-8 md:p-16">
+              <div className="text-center space-y-2 sm:space-y-6 w-full max-w-2xl">
                 {/* Logo simulation */}
                 <div className="relative inline-flex items-center justify-center">
                   <div className="absolute inset-0 bg-primary/20 blur-xl rounded-full"></div>

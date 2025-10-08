@@ -3,13 +3,13 @@ import despuesImage from "@/assets/despues.jpg";
 
 const CaseStudy = () => {
   return (
-    <section id="casos" className="py-12 md:py-20 px-4 bg-background">
+    <section id="casos" className="py-8 md:py-20 px-4 bg-background">
       <div className="container mx-auto max-w-6xl">
-        <h2 className="text-2xl sm:text-3xl md:text-4xl lg:text-5xl font-bold text-center mb-12 md:mb-16">
+        <h2 className="text-xl sm:text-2xl md:text-4xl lg:text-5xl font-bold text-center mb-6 md:mb-16">
           Resultados reales: Antes vs Después
         </h2>
         
-        <div className="grid md:grid-cols-2 gap-8 mb-12">
+        <div className="grid md:grid-cols-2 gap-4 md:gap-8 mb-6 md:mb-12">
           {/* Antes */}
           <div>
             <div className="inline-block mb-4">
@@ -50,22 +50,22 @@ const CaseStudy = () => {
         </div>
 
         {/* Metrics */}
-        <div className="bg-gray-bg rounded-xl p-4 sm:p-6 md:p-8 max-w-3xl mx-auto">
-          <div className="grid grid-cols-3 gap-3 sm:gap-6 md:gap-8 text-center">
+        <div className="bg-gray-bg rounded-xl p-3 sm:p-6 md:p-8 max-w-3xl mx-auto">
+          <div className="grid grid-cols-3 gap-2 sm:gap-6 md:gap-8 text-center">
             <div>
-              <div className="text-2xl sm:text-3xl mb-1 sm:mb-2">⚡</div>
-              <p className="text-xs sm:text-sm font-semibold mb-1">Entregado en:</p>
-              <p className="text-lg sm:text-xl md:text-2xl font-bold text-primary">14 días</p>
+              <div className="text-xl sm:text-3xl mb-0.5 sm:mb-2">⚡</div>
+              <p className="text-[10px] sm:text-sm font-semibold mb-0.5 sm:mb-1">Entregado en:</p>
+              <p className="text-sm sm:text-xl md:text-2xl font-bold text-primary">14 días</p>
             </div>
             <div>
-              <div className="text-2xl sm:text-3xl mb-1 sm:mb-2">💰</div>
-              <p className="text-xs sm:text-sm font-semibold mb-1">Inversión:</p>
-              <p className="text-lg sm:text-xl md:text-2xl font-bold text-primary">650€</p>
+              <div className="text-xl sm:text-3xl mb-0.5 sm:mb-2">💰</div>
+              <p className="text-[10px] sm:text-sm font-semibold mb-0.5 sm:mb-1">Inversión:</p>
+              <p className="text-sm sm:text-xl md:text-2xl font-bold text-primary">650€</p>
             </div>
             <div>
-              <div className="text-2xl sm:text-3xl mb-1 sm:mb-2">📈</div>
-              <p className="text-xs sm:text-sm font-semibold mb-1">Resultados:</p>
-              <p className="text-base sm:text-lg md:text-2xl font-bold text-success">+200% conversión</p>
+              <div className="text-xl sm:text-3xl mb-0.5 sm:mb-2">📈</div>
+              <p className="text-[10px] sm:text-sm font-semibold mb-0.5 sm:mb-1">Resultados:</p>
+              <p className="text-sm sm:text-lg md:text-2xl font-bold text-success">+200%</p>
             </div>
           </div>
         </div>

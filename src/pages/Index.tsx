@@ -11,7 +11,6 @@ import Process from "@/components/Process";
 import FAQ from "@/components/FAQ";
 import FinalCTA from "@/components/FinalCTA";
 import Footer from "@/components/Footer";
-import MobileNav from "@/components/MobileNav";
 
 const Index = () => {
   return (
@@ -29,7 +28,6 @@ const Index = () => {
       <FAQ />
       <FinalCTA />
       <Footer />
-      <MobileNav />
     </div>
   );
 };
