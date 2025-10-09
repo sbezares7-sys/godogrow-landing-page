@@ -5,8 +5,8 @@ const Retainer = () => {
   const plans = [
     {
       name: "Retainer Base",
-      price: "200€/mes + IVA",
-      commitment: "Sin permanencia",
+      price: "200€/mes",
+      commitment: "Sin permanencia · No incluye IVA",
       features: [
         "2 actualizaciones mensuales",
         "Soporte prioritario (<24h)",
@@ -17,9 +17,9 @@ const Retainer = () => {
     },
     {
       name: "Retainer Contenido",
-      price: "350€/mes + IVA",
+      price: "350€/mes",
       badge: "Recomendado",
-      commitment: "Sin permanencia",
+      commitment: "Sin permanencia · No incluye IVA",
       features: [
         "Todo lo anterior +",
         "Calendario mensual completo (16-20 posts)",
@@ -31,8 +31,8 @@ const Retainer = () => {
     },
     {
       name: "Retainer Multi-canal",
-      price: "550€/mes + IVA",
-      commitment: "Sin permanencia",
+      price: "550€/mes",
+      commitment: "Sin permanencia · No incluye IVA",
       features: [
         "Todo lo anterior +",
         "2 redes sociales gestionadas",

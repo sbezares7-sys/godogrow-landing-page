@@ -20,12 +20,12 @@ const FAQ = () => {
       answer: "Incluyes 2 rondas de revisión. En nuestra experiencia, el 95% de clientes aprueba en la primera o segunda ronda. Si realmente no funciona, hablamos y buscamos solución."
     },
     {
-      question: "¿Puedo pagar en cuotas?",
-      answer: "Sí. Paquete Profesional: 2 cuotas de 325€ + IVA. Paquete Premium: 3 cuotas de 400€ + IVA. Primera cuota al empezar, resto al entregar."
+      question: "¿Los precios incluyen IVA?",
+      answer: "Los precios mostrados no incluyen IVA. El IVA se aplicará en la factura cuando sea necesario según tu situación fiscal y ubicación. Si eres cliente fuera de España, consulta con nosotros sobre impuestos y facturación específicos de tu país."
     },
     {
-      question: "¿Los precios incluyen IVA?",
-      answer: "Sí, todos los precios mostrados incluyen IVA. Trabajamos principalmente con empresas y autónomos que lo desgravan, por lo que es el estándar en servicios B2B. Si eres cliente fuera de España, consulta con nosotros sobre impuestos y facturación específicos de tu país."
+      question: "¿Qué incluye vuestra garantía de entrega?",
+      answer: "GARANTÍA DE ENTREGA EN 14 DÍAS: Si no entregamos tu proyecto completo en 14 días hábiles, es gratis. Condiciones: Los 14 días empiezan después del kickoff call, el cliente debe proporcionar feedback en menos de 48h cuando se solicita, se excluyen retrasos por cambios fuera de las 2 revisiones incluidas y causas de fuerza mayor (enfermedad grave, catástrofe). En 3 años, nunca hemos tenido que activar esta garantía."
     },
     {
       question: "¿Qué incluye exactamente el retainer?",

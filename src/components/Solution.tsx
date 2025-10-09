@@ -23,7 +23,8 @@ const Solution = () => {
             <p className="text-xs sm:text-base text-muted-foreground mb-3 sm:mb-6">
               En 14 días tienes: Logo + Web + Identidad + Contenido inicial
             </p>
-            <p className="text-sm sm:text-lg font-semibold mb-2 sm:mb-4">Desde 450€ + IVA pago único</p>
+            <p className="text-sm sm:text-lg font-semibold mb-2 sm:mb-4">Desde 450€</p>
+            <p className="text-xs text-muted-foreground">No incluye IVA</p>
             <a href="#servicios" className="text-primary hover:underline font-medium">
               Ver paquetes ↓
             </a>
@@ -39,7 +40,8 @@ const Solution = () => {
             <p className="text-xs sm:text-base text-muted-foreground mb-3 sm:mb-6">
               Retainer mensual: actualizaciones, redes sociales, newsletter, soporte
             </p>
-            <p className="text-sm sm:text-lg font-semibold mb-2 sm:mb-4">Desde 200€/mes + IVA</p>
+            <p className="text-sm sm:text-lg font-semibold mb-2 sm:mb-4">Desde 200€/mes</p>
+            <p className="text-xs text-muted-foreground">No incluye IVA</p>
             <p className="text-sm text-muted-foreground">
               La mayoría de clientes activan esto
             </p>
@@ -55,7 +57,8 @@ const Solution = () => {
             <p className="text-xs sm:text-base text-muted-foreground mb-3 sm:mb-6">
               Outreach B2B + Ads optimizados para tu sector
             </p>
-            <p className="text-sm sm:text-lg font-semibold mb-2 sm:mb-4">Desde 400€/mes + IVA</p>
+            <p className="text-sm sm:text-lg font-semibold mb-2 sm:mb-4">Desde 400€/mes</p>
+            <p className="text-xs text-muted-foreground">No incluye IVA</p>
             <p className="text-sm text-muted-foreground mb-2">
               Opcional, cuando estés listo
             </p>
