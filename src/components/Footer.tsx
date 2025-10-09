@@ -1,4 +1,4 @@
-import { Linkedin, Instagram } from "lucide-react";
+import { Linkedin, MessageCircle } from "lucide-react";
 
 const Footer = () => {
   const scrollToSection = (id: string) => {
@@ -88,18 +88,22 @@ const Footer = () => {
             
             <div className="flex gap-4">
               <a 
-                href="#" 
+                href="https://www.linkedin.com/company/godogrow" 
+                target="_blank"
+                rel="noopener noreferrer"
                 className="w-10 h-10 rounded-full bg-secondary flex items-center justify-center hover:bg-primary hover:text-primary-foreground transition-colors"
                 aria-label="LinkedIn"
               >
                 <Linkedin className="w-5 h-5" />
               </a>
               <a 
-                href="#" 
+                href="https://wa.me/34622145839" 
+                target="_blank"
+                rel="noopener noreferrer"
                 className="w-10 h-10 rounded-full bg-secondary flex items-center justify-center hover:bg-primary hover:text-primary-foreground transition-colors"
-                aria-label="Instagram"
+                aria-label="WhatsApp"
               >
-                <Instagram className="w-5 h-5" />
+                <MessageCircle className="w-5 h-5" />
               </a>
             </div>
           </div>

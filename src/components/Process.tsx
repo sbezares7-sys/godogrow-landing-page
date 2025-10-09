@@ -65,7 +65,7 @@ const Process = () => {
         {/* Guarantee box */}
         <div className="mt-16 bg-primary/5 border-2 border-primary rounded-xl p-8 text-center shadow-lg shadow-primary/10">
           <p className="text-lg md:text-xl font-semibold text-foreground">
-            ¿Necesitas más tiempo? Sin problema. Si no entregamos en 14 días, es gratis. Sin excusas.
+            GARANTÍA: Si no entregamos en 14 días, es gratis. Sin excusas.
           </p>
         </div>
       </div>
