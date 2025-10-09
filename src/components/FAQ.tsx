@@ -32,6 +32,10 @@ const FAQ = () => {
       answer: "Depende del plan. El base incluye 2 actualizaciones mensuales. El de contenido incluye gestión completa de redes. El multi-canal incluye todo + newsletter. Sin permanencia en ninguno."
     },
     {
+      question: "¿Qué pasa si no contrato un retainer?",
+      answer: "Al finalizar la Fase 1, recibes todos los archivos (logo, diseños, código web), acceso completo a hosting/dominio y documentación para gestionar por tu cuenta. MANTENIMIENTO: Si NO activas retainer, la web es 100% tuya pero tú gestionas actualizaciones, seguridad, backups, etc. Si activas retainer, nosotros nos encargamos de todo. IMPORTANTE: Sin retainer activo, no realizamos cambios ni soporte. Si en el futuro necesitas cambios, se cobran como servicios a la carta."
+    },
+    {
       question: "¿Necesito tener algo preparado antes de empezar?",
       answer: "No. Solo necesitamos que nos dediques 30 minutos en el kickoff call. Nosotros nos encargamos del resto. Si tienes fotos/contenido, genial. Si no, te orientamos qué necesitas."
     },
