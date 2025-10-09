@@ -7,7 +7,7 @@ const Packages = () => {
     {
       name: "ESENCIAL",
       badge: "Para empezar",
-      price: "450€",
+      price: "450€ + IVA",
       subtitle: "Pago único",
       features: [
         "Logo profesional + variantes",
@@ -22,8 +22,8 @@ const Packages = () => {
     {
       name: "PROFESIONAL",
       badge: "⭐ Más popular",
-      price: "650€",
-      subtitle: "Pago único (o 2 cuotas de 325€)",
+      price: "650€ + IVA",
+      subtitle: "Pago único (o 2 cuotas de 325€ + IVA)",
       features: [
         "Todo del Esencial +",
         "Landing page profesional",
@@ -40,8 +40,8 @@ const Packages = () => {
     {
       name: "PREMIUM",
       badge: "Completo",
-      price: "1.200€",
-      subtitle: "Pago único (o 3 cuotas)",
+      price: "1.200€ + IVA",
+      subtitle: "Pago único (o 3 cuotas de 400€ + IVA)",
       features: [
         "Todo del Profesional +",
         "Web completa (3-5 páginas)",

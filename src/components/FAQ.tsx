@@ -21,7 +21,11 @@ const FAQ = () => {
     },
     {
       question: "¿Puedo pagar en cuotas?",
-      answer: "Sí. Paquete Profesional: 2 cuotas de 325€. Paquete Premium: 3 cuotas de 400€. Primera cuota al empezar, resto al entregar."
+      answer: "Sí. Paquete Profesional: 2 cuotas de 325€ + IVA. Paquete Premium: 3 cuotas de 400€ + IVA. Primera cuota al empezar, resto al entregar."
+    },
+    {
+      question: "¿Los precios incluyen IVA?",
+      answer: "Sí, todos los precios mostrados incluyen IVA. Trabajamos principalmente con empresas y autónomos que lo desgravan, por lo que es el estándar en servicios B2B. Si eres cliente fuera de España, consulta con nosotros sobre impuestos y facturación específicos de tu país."
     },
     {
       question: "¿Qué incluye exactamente el retainer?",
