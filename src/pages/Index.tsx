@@ -12,6 +12,7 @@ import FAQ from "@/components/FAQ";
 import FinalCTA from "@/components/FinalCTA";
 import Footer from "@/components/Footer";
 import FloatingUrgencyBadge from "@/components/FloatingUrgencyBadge";
+import BrandProblems from "@/components/BrandProblems";
 
 const Index = () => {
   return (
@@ -26,6 +27,7 @@ const Index = () => {
       <CaseStudy />
       <VideoCase />
       <Process />
+      <BrandProblems />
       <FAQ />
       <FinalCTA />
       <Footer />
