@@ -1,5 +1,11 @@
 import { Button } from "@/components/ui/button";
 import { Badge } from "@/components/ui/badge";
+import {
+  Accordion,
+  AccordionContent,
+  AccordionItem,
+  AccordionTrigger,
+} from "@/components/ui/accordion";
 
 const Retainer = () => {
   const plans = [
@@ -8,10 +14,11 @@ const Retainer = () => {
       price: "200€/mes",
       commitment: "Sin permanencia · No incluye IVA",
       features: [
-        "2 actualizaciones mensuales",
-        "Soporte prioritario (<24h)",
-        "1 llamada estratégica/mes",
-        "Análisis mensual"
+        "Web siempre actualizada y relevante",
+        "Cambios incluidos (2 al mes, sin pagar extra)",
+        "Problemas resueltos en <24h",
+        "Protección de tu inversión inicial",
+        "Optimización continua para vender más"
       ],
       highlighted: false
     },
@@ -97,6 +104,47 @@ const Retainer = () => {
               </Button>
             </div>
           ))}
+        </div>
+
+        <div className="mt-12 max-w-3xl mx-auto">
+          <Accordion type="single" collapsible className="bg-background/10 backdrop-blur-sm rounded-xl border-2 border-background/20">
+            <AccordionItem value="cost-analysis" className="border-none">
+              <AccordionTrigger className="px-6 py-4 text-lg md:text-xl font-bold hover:no-underline hover:bg-background/5">
+                💰 COSTE REAL DE NO TENER RETAINER
+              </AccordionTrigger>
+              <AccordionContent className="px-6 pb-6">
+                <div className="space-y-4 text-background/90">
+                  <div className="space-y-2">
+                    <p className="flex justify-between items-center">
+                      <span>1 cliente perdido</span>
+                      <span className="font-bold text-primary">= 500-2.000€ (según tu ticket)</span>
+                    </p>
+                    <p className="flex justify-between items-center">
+                      <span>1 cambio urgente</span>
+                      <span className="font-bold text-primary">= 300€</span>
+                    </p>
+                    <p className="flex justify-between items-center">
+                      <span>Web caída 1 día</span>
+                      <span className="font-bold text-primary">= ¿Cuántos clientes pierdes?</span>
+                    </p>
+                  </div>
+                  
+                  <div className="border-t border-background/20 pt-4 mt-4">
+                    <p className="text-xl font-bold text-center mb-2">
+                      Total: <span className="text-primary">800-2.500€</span> en pérdidas
+                    </p>
+                    <p className="text-center text-lg">
+                      vs <span className="text-accent font-bold">200€/mes</span> de protección
+                    </p>
+                  </div>
+                  
+                  <p className="text-center text-sm pt-4 border-t border-background/20">
+                    Sin permanencia. Cancelas cuando quieras.
+                  </p>
+                </div>
+              </AccordionContent>
+            </AccordionItem>
+          </Accordion>
         </div>
       </div>
     </section>
